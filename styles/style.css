@@ -22,7 +22,12 @@
   font-weight: 600px;
 }
 .btn:hover{
-    
+    cursor: pointer;
+    background: linear-gradient(90deg,
+    #f7e83fce 10%,
+    #fb09b2b6 71%,
+    #9100f8b6 90%
+  );
 }
 
 

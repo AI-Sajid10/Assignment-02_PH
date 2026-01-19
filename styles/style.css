@@ -30,8 +30,6 @@
   );
 }
 
-
-
 /*navigation bar styles*/
 .navbar{
     display: flex;
@@ -70,4 +68,59 @@
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 400px;
+}
+
+/*nav bar style end*/
+/*banner styles*/
+
+.banner{
+    background-image: url(../resources/B13-A02-TechWave/assets/hero-bg.png);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    height: 100vh;
+}
+.circle{
+    width: 350px;
+}
+.mic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 110px;
+    transform: translate(-50%, -80%);
+
+}
+.banner-content h3{
+    font-size: 2.5rem;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.banner-content p{
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.banner-btn{
+    padding: 16px 42px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #2cff88;
+    color: #2cff88;
+}
+.banner-btn:hover{
+    background-color: #402567ad;
+    cursor: pointer;
 }
